@@ -1,47 +1,47 @@
-.post-comments-form-textarea {
-    color: #333;
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 24px;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.post-comments {
-    
+.title {
+  margin-bottom: 4px;
 }
 
-.post-comment {
-    color: #444;
-    font-size: 12px;
-    line-height: 20px;
-    background-color: #ffff9f;
-    padding: 8px 16px;
-    border-radius: 8px;
-    margin-bottom: 8px;
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
 }
 
-.post-comment-content {
-    font-style: italic;
+.textarea {
+  min-height: 100px;
+  resize: vertical;
 }
 
-.post-comments-form {
-    margin-top: 16px;
-    text-align: right;
+.button {
+  width: fit-content;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #6c63ff;
+  color: white;
+  cursor: pointer;
 }
 
-.post-comments-form-textarea {
-    display: block;
-    resize: none;
-    width: 100%;
-    margin-bottom: 8px;
-    padding: 8px 16px;
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
 }
 
-.post-comments-form-button {
-    padding: 8px 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    border: none;
-    background-color: #27ae60;
-    color: #eee;
-    cursor: pointer;
+.item {
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 12px;
 }

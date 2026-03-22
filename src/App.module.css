@@ -1,4 +1,6 @@
-.app {
-    max-width: 480px;
-    margin: 120px auto;
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
